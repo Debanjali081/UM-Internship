@@ -1,0 +1,125 @@
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <img src="assets/logo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content" id="home">
+            <h1>Let's Take Care Of Your Pet</h1>
+            <img src="assets/3d_gog.png" alt="pet-img">
+        </div>
+
+        <h1 id="about">Tips for Your Pet</h1>
+        <div class="cards">
+            <div class="card">
+                <h3>Foods a Dog Should Eat</h3>
+                <ul>
+                    <li>High-quality dog food (with balanced nutrients)</li>
+                    <li>Lean meats (chicken, turkey, etc.)</li>
+                    <li>Fish (salmon, tuna, etc.)</li>
+                    <li>Fruits and vegetables (like apples, carrots, and green beans)</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Best Places for a Dog</h3>
+                <ul>
+                    <li>Spacious homes with room to run</li>
+                    <li>Backyards or parks where they can exercise.</li>
+                    <li>Dog-friendly cities or places with pet-friendly amenities</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Best Environment for a Dog</h3>
+                <ul>
+                    <li>Cold-weather dogs (e.g., Huskies, Saint Bernards) may prefer cooler environments</li>
+                    <li>Warm-weather dogs (e.g., Greyhounds, Chihuahuas) prefer mild climates</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Pet Status -->
+        <div class="pet">
+            <img src="assets/happy-pet.png" alt="" id="pet-image">
+        </div>
+
+        <!-- Status Bars -->
+        <div class="status-bars">
+            <div class="status">
+                <p>Hunger</p>
+                <progress id="hunger-bar" value="50" max="100"></progress>
+                <span id="hunger-value">50</span>
+            </div>
+            <div class="status">
+                <p>Happiness</p>
+                <progress id="happiness-bar" value="80" max="100"></progress>
+                <span id="happiness-value">80</span>
+            </div>
+            <div class="status">
+                <p>Energy</p>
+                <progress id="energy-bar" value="70" max="100"></progress>
+                <span id="energy-value">70</span>
+            </div>
+        </div>
+
+        <!-- Interaction Buttons -->
+        <div class="buttons">
+            <button onclick="feedPet()">Feed</button>
+            <button onclick="playWithPet()">Play</button>
+            <button onclick="putPetToSleep()">Sleep</button>
+        </div>
+
+        <!-- Services Section -->
+        <div class="services" id="services">
+            <h2>My Web Development Services</h2>
+            <ul>
+                <li>Responsive Web Design</li>
+                <li>Full-Stack Web Development (MERN Stack)</li>
+                <li>E-commerce Website Development</li>
+                <li>API Integration & Development</li>
+                <li>Website Maintenance & Optimization</li>
+                <li>Custom JavaScript Functionality</li>
+            </ul>
+        </div>
+
+        <!-- Footer Section -->
+        <footer id="contact">
+            <div class="footer-container">
+                <p>Contact me: debanjali017@gmail.com | 9827780783</p>
+                <p>&copy; 2024 Debanjali Lenka. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Portfolio</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
