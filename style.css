@@ -23,6 +23,20 @@ body {
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 768px) {
+    .content img {
+        width: 50%;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .buttons {
+        margin-left: 10%;
+    }
+}
+
 
 .header {
     width: 100%;
